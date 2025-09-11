@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Phishing Blocker",
+    "version": "1.0",
+    "description": "실시간 피싱 사이트 탐지 및 차단",
+    "permissions": [
+        "scripting",
+        "tabs",
+        "webNavigation"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "warning.css"
+            ]
+        }
+    ]
+}
