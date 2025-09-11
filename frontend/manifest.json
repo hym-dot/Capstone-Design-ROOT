@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Phishing Blocker",
+    "name": "Phishing Blocker Test",
     "version": "1.0",
-    "description": "실시간 피싱 사이트 탐지 및 차단",
+    "description": "안전 테스트용 피싱 차단 시연",
     "permissions": [
         "scripting",
         "tabs",
